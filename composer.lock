@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "09e46531099fa4ed878c8fd4e553fa26",
+    "content-hash": "b14f8ca2254c9b7d93872c9bf52d46b2",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "phpoxford/spires",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpoxford/spires.git",
+                "reference": "08b3e1f12ab1f1d7c1fc80b3450771d8968c6143"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpoxford/spires/zipball/08b3e1f12ab1f1d7c1fc80b3450771d8968c6143",
+                "reference": "08b3e1f12ab1f1d7c1fc80b3450771d8968c6143",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "hamcrest/hamcrest-php": "^2.0",
+                "phpunit/phpunit": "^5.4",
+                "scrutinizer/ocular": "~1.3",
+                "squizlabs/php_codesniffer": "~2.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Spires\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Dilling-Hansen",
+                    "email": "martindilling@gmail.com",
+                    "homepage": "http://martindilling.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Spires",
+            "homepage": "https://github.com/phpoxford/spires",
+            "time": "2016-07-27 19:20:52"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "phpoxford/spires": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

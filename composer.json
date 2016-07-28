@@ -1,0 +1,12 @@
+{
+  "require": {
+  },
+  "require-dev": {
+    "phpoxford/spires": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "SpiresGoodbye\\": "src/"
+    }
+  }
+}
